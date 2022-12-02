@@ -57,9 +57,6 @@ namespace master_mind
             }  
                 lol = tCouleurJoueur;
         }   
-        static void edensCalcBonPlace (int[] tCouleurJoueur, int[] tCodeSecret, out pionrouge)
-            {
 
-            }
     }
 }}
