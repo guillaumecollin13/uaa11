@@ -24,9 +24,11 @@ namespace mastermind_test_34_programe
             {
                 Console.Write(tCodeSecret[compteur]);
             }
-
-
-
+            Console.WriteLine(" ");
+            edensCalcBonPlace(tCouleurJoueur, tCodeSecret, pionrouge, out pionrouge);
+            edensCalcBonCoul(tCouleurJoueur, tCodeSecret, pionblanc, out pionblanc);
+            Console.WriteLine(pionrouge);
+            Console.WriteLine(pionblanc);
             static void edensCoulDepart(int[] tCodeSecret, Random alea, out int[] lol)
             {
 
@@ -61,9 +63,9 @@ namespace mastermind_test_34_programe
             }
             static void edensCalcBonPlace(int[] tCouleurJoueur, int[] tCodeSecret, int pion, out int pionrouge)
             {
-                for (int compteur = 0; compteur < 4;)
+                for (int compteur = 0; compteur < 4;compteur++)
                 {
-                    if (tCouleurJoueur[compteur] == tCouleurJoueur[compteur])
+                    if (tCouleurJoueur[compteur] == tCodeSecret[compteur])
                     {
                         pion = pion + 1;
                     }
