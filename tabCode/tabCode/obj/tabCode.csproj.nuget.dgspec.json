@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\uaa11\\uaa11\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin.csproj": {}
+    "H:\\uaa11\\uaa11\\tabCode\\tabCode\\tabCode.csproj": {}
   },
   "projects": {
-    "H:\\uaa11\\uaa11\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin.csproj": {
+    "H:\\uaa11\\uaa11\\tabCode\\tabCode\\tabCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\uaa11\\uaa11\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin.csproj",
-        "projectName": "Ce1UAA11_2022_GuillaumeCollin",
-        "projectPath": "H:\\uaa11\\uaa11\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin.csproj",
+        "projectUniqueName": "H:\\uaa11\\uaa11\\tabCode\\tabCode\\tabCode.csproj",
+        "projectName": "tabCode",
+        "projectPath": "H:\\uaa11\\uaa11\\tabCode\\tabCode\\tabCode.csproj",
         "packagesPath": "C:\\Users\\220053\\.nuget\\packages\\",
-        "outputPath": "H:\\uaa11\\uaa11\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\Ce1UAA11_2022_GuillaumeCollin\\obj\\",
+        "outputPath": "H:\\uaa11\\uaa11\\tabCode\\tabCode\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
