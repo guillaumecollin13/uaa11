@@ -1,5 +1,3 @@
-H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.csproj.AssemblyReference.cache
-H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.GeneratedMSBuildEditorConfig.editorconfig
 H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.AssemblyInfoInputs.cache
 H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.AssemblyInfo.cs
 H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.csproj.CoreCompileInputs.cache
@@ -12,3 +10,5 @@ H:\uaa11\uaa11\tabCode\tabCode\bin\Debug\netcoreapp3.1\tabCode.pdb
 H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.dll
 H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.pdb
 H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.genruntimeconfig.cache
+H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.csproj.AssemblyReference.cache
+H:\uaa11\uaa11\tabCode\tabCode\obj\Debug\netcoreapp3.1\tabCode.GeneratedMSBuildEditorConfig.editorconfig
