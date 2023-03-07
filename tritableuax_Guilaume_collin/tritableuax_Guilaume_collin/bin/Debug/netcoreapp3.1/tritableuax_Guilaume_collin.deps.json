@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "tritableuax_Guilaume_collin/1.0.0": {
+        "runtime": {
+          "tritableuax_Guilaume_collin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tritableuax_Guilaume_collin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
