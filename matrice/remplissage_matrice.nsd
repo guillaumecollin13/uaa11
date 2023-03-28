@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.24-11" text="&#34;remplissage matrice&#34;" comment="" color="ffffff" type="program" style="abbr">
+	<children>
+		<instruction text="&#34;random alea= new random();&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;matri = new int[m,n]&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<for text="&#34;pour i &#60;- 0 à m-1&#34;" comment="" counterVar="i" startValue="0" endValue="m-1" stepConst="1" style="COUNTER" color="ffffff">
+			<qFor>
+				<for text="&#34;pour j &#60;- 0 à n-1&#34;" comment="" counterVar="j" startValue="0" endValue="n-1" stepConst="1" style="COUNTER" color="ffffff">
+					<qFor>
+						<instruction text="&#34;matri[i,j] = alea.next(0,20)&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qFor>
+				</for>
+			</qFor>
+		</for>
+	</children>
+</root>

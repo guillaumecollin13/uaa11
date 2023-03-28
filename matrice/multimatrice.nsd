@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.24-11" text="&#34;multimatrice&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;matri3 = new int[matri1.getlength(0),matri2.getlength(1)]&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;bool possible;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;(matri1.getlength(1)= matri2.getlength(0)) &#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;possible =vrai&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<for text="&#34;pour ligne &#60;- 0 à matri3.getlength(0)-1&#34;" comment="&#34;&#34;" counterVar="ligne" startValue="0" endValue="matri3.getlength(0)-1" stepConst="1" style="FREETEXT" color="ffffff">
+					<qFor>
+						<for text="&#34;pour colone &#60;- 0 à matri3.getlength(1)-1&#34;" comment="&#34;&#34;" counterVar="colone" startValue="0" endValue="matri3.getlength(1)-1" stepConst="1" style="COUNTER" color="ffffff">
+							<qFor>
+								<instruction text="&#34;matri3[ligne,colone]=0;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+								<for text="&#34;pour multi &#60;- 0 à matri1.getlength(1)-1&#34;" comment="&#34;&#34;" counterVar="multi" startValue="0" endValue="matri1.getlength(1)-1" stepConst="1" style="COUNTER" color="ffffff">
+									<qFor>
+										<instruction text="&#34;matri3[ligne,colone]=matri3[ligne,colone]+mati1[ligne,multi]*matri2[multi,colone]&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+									</qFor>
+								</for>
+							</qFor>
+						</for>
+					</qFor>
+				</for>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;possible = faux&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+	</children>
+</root>

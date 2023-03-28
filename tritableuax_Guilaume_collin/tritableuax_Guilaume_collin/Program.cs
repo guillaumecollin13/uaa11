@@ -62,7 +62,7 @@ namespace tritableuax_Guilaume_collin
                 }
                 else if (choix == 4)
                 {
-                    triprop.triIntuitif(tabDeBase, out tabReponse);
+                    triprop.triSelection(tabDeBase, out tabReponse);
                     for (int zeref = 0; zeref < (tabReponse.Length - 1); zeref++)
                     {
                         Console.Write(tabReponse[zeref] + " ");
@@ -71,7 +71,7 @@ namespace tritableuax_Guilaume_collin
                 }
                 else if (choix == 5)
                 {
-                    triprop.triIntuitif(tabDeBase, out tabReponse);
+                    triprop.trishell(tabDeBase, out tabReponse);
                     for (int zeref = 0; zeref < (tabReponse.Length - 1); zeref++)
                     {
                         Console.Write(tabReponse[zeref] + " ");
