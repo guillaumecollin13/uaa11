@@ -31,7 +31,7 @@ namespace _5TI_matrice_GuillaumeCollin
         }
         public void addiMatrice(int[,]matri, int[,] matri2, out int[,] matri3, bool possible)
         {
-            matri3 = new int[matri2.GetLength(0) - 1, matri.GetLength(1) - 1];
+            matri3 = new int[matri2.GetLength(0), matri.GetLength(1)];
             if (matri.GetLength(0) == matri2.GetLength(0) && matri2.GetLength(0) == matri.GetLength(0))
             {
                 possible = true;
@@ -47,6 +47,29 @@ namespace _5TI_matrice_GuillaumeCollin
             {
                 possible = false;
             }
-        } 
+        }
+        public void multiMatrice(int[,] matri, int[,] matri2, out int[,] matri3, bool possible)
+        {
+            matri3 = new int[matri.GetLength(0), matri2.GetLength(1)];
+            if (matri.GetLength(0) == matri2.GetLength(1))
+            {
+                possible = true;
+                for (int ligne = 0; ligne < matri2.GetLength(0) - 1; ligne++)
+                {
+                    for (int colone = 0; colone < matri.GetLength(1) - 1; colone++)
+                    {
+                        matri3[ligne, colone] = 0;
+                        for (int multi = 0; multi < matri.GetLength(1)-1; multi++)
+                        {
+                            matri3[ligne, colone] = matri3[ligne, colone] + matri[ligne, colone] * matri2[ligne, colone];
+                        }
+                    }
+                }
+            }
+            else
+            {
+                possible = false;
+            }
+        }
     }
 }

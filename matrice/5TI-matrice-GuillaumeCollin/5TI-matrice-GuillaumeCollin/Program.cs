@@ -72,8 +72,16 @@ namespace _5TI_matrice_GuillaumeCollin
                     n = int.Parse(Console.ReadLine());
                     matri2 = new int[m, n];
                     matrice.remplissageMatrice(matri2, out matri2);
-                   // matrice.concatMatrice(matri3, out matric);
-                   // Console.WriteLine(matric);
+                    matrice.multiMatrice(matri, matri2, out matri3, possible);
+                    if (possible == false)
+                    {
+                        matrice.concatMatrice(matri3, out matric);
+                        Console.WriteLine(matric);
+                    }
+                    else
+                    {
+                        Console.WriteLine("multiplication impossible");
+                    }
                 }
                 Console.WriteLine("vouolez-vous faire autre chose si oui presser la touche y sin non presser n'importe quel touche");
                 repeat = char.Parse(Console.ReadLine());
